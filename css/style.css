@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header section*/
+#header{
+    background-image: url(../img/banner.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: #fff !important;
+}
+.navbar-brand img{
+    width: 150px;
+    margin-left: 30px;
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+}
+nav .fa-bars{
+    color: #fff;
+    font-size: 2rem;
+}
+/*Header section*/
+/*welcome*/
+.welcome-t{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0,0.2); ;
+}
+.welcome-t h1{
+    color: #333;
+}
+.welcome-t .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #4c647c;
+}
+.welcome-t .btn:focus{
+    box-shadow: none;
+}
+/*welcome*/
+/*About*/
+.col-md-6 .about-s1{
+    padding-top: 5rem;
+}
+.about-s1 img{
+    width: 35rem;
+    height: 20rem;
+}
+.about-s2 .embed-responsive-item{
+    width: 35rem;
+    height: 20rem;
+    padding-left: 3rem;
+}
+.col-md-6 .about-s2{
+    padding-top: 3rem;
+}
+/*About*/
+/*Services*/
+.services{
+    background-color: #efefef;
+    margin-top: 7rem;
+    padding-top: 5rem;
+    
+}
+.container .services-s1{
+    padding-right: 3rem;
+}
+.col-md-4 img{
+    width: 3rem;
+}
+.col-md-4 .ser{
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    text-align: justify;
+}
+/*Services*/
+/*Features*/
+.features{
+    padding: 10rem 0;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/feature-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.col-md-6 img{
+    padding-left: 3rem;
+}
+.features-box {
+    padding-bottom: 8rem;
+}
+.features-box .features-left{
+    
+    width: 20%;
+    float: left;
+}
+.features-box .features-left .fa{
+    padding-top: 0.6rem;
+    font-size: 3rem;
+}
+.features-box .features-right{
+    width: 80%;
+    float: left;
+}
+/*Features*/
+/*Testimonilas*/
+.testimonilas{
+    padding: 6rem 0;
+}
+.testimonilas .row{
+    padding-left: 6rem;
+}
+.testimonilas h1{
+    color: rgb(206, 24, 24);
+}
+.testimonilas img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: -2.5rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.testimonilas .container .col-md-4{
+    padding-right: 6rem;
+}
+.review{
+    font-size: 1rem;
+    padding: 0.62rem;
+    border-radius: 0.62rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem rgba(0, 0, 0,0.2);
+}
+.review .fa-twitter{
+    color: #013f7e;
+}
+.testimonilas span{
+    color: #013f7e;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+/*Testimonilas*/
+/*subscribe*/
+.subscribe-t{
+    padding: 3rem 2rem;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0,0.2);
+    margin-bottom: -13rem;
+}
+.subscribe-t h3,.subscribe-t p{
+    color: #fff;
+}
+.subscribe-t .input-group{
+    border-radius: 2rem;
+    background: #fff;
+    max-width: 32rem;
+    margin: 0.6rem auto;
+    padding: 0.3rem;
+}
+.subscribe-t .input-group .form-control{
+    border: none;
+    background: transparent;
+}
+.subscribe-t .input-group .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-bt{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 1rem;
+}
+.subscribe-t .input-group .input-group-text{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.subscribe-t .btn:focus{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+/*subscribe*/
+/*Footer*/
+.footer{
+    background-color: #efefef;
+    margin-top: 8rem;
+    padding: 8rem 0rem 4rem 0rem;
+    color: #013f7e;
+}
+.footer .container{
+    padding-left: 5rem;
+}
+.footer img{
+    width: 10rem;
+    padding-bottom: 2rem;
+}
+.footer h1{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+.footer p{
+    font-size: 1.3rem;
+    text-align: left;
+}
+.footer .fa{
+    padding-right: 1rem;
+    font-size: 1.3rem;
+}
+/*Footer*/
